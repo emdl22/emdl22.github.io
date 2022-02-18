@@ -1,0 +1,960 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>EMDL Workshop 2022</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+	<a href='https://www.sigmobile.org/mobisys/2022/'><img align="right" vertical-align="text-top" width="35%" style="margin: 00px 5px" src=images/mobisys22.png></img></a>
+
+	<h1><a href="index.html">6th International Workshop on<BR>Embedded and Mobile Deep Learning</a></h1>
+	<h2>Workshop co-located with <a href="https://www.sigmobile.org/mobisys/2021/">ACM MobiSys 2022</a></h2>
+	<h3>1 July '22 - Portland, Oregon</h3>
+
+</div>
+<div id="content">
+	<div id="colOne">
+<!-- DBW
+<h3 class="title">Accepted Papers</h3>
+
+<p>
+Three exciting keynotes are confirmed to be given by Pete Warden (Google Brain), Paul Whatmough (ARM and Harvard) and Dimitris Papailiopoulos (University of Wisconsin-Madison). Consult keynote page for more details here: <a href="https://www.sigmobile.org/mobisys/2018/workshops/deepmobile18/keynote.html">Keynote</a>
+</p>
+
+<h4 class="title">Accepted Full Technical Papers</h4>
+<p>
+<table>
+<tr>
+<td><p><b><a href="papers/Mayo.pdf">
+Mayo: A Framework for Auto-generating Hardware Friendly Deep Neural Networks</a></b> - Yiren Zhao (University of Cambridge), Xitong Gao (Shenzhen Institute of Advanced Technology), Robert Mullins (University of Cambridge), Chengzhong Xu (Shenzhen Institute of Advanced Technology)
+</p></td>
+</tr>
+<tr>
+<td>
+<p>
+<b><a href="papers/Neural_Network_Syntax_Analyzer_for_Embedded_Standardized_Deep_Learning.pdf">
+Neural Network Syntax Analyzer for Embedded Standardized Deep Learning</a></b> - MyungJae Shin, Joongheon Kim (Chung-Ang University), Aziz Mohaisen (University of Central Florida), Jaebok Park, Kyung Hee Lee (ETRI)
+</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>
+<b><a href="papers/HARNet.pdf">
+HARNet: Towards On-Device Incremental Learning using Deep Ensembles on Constrained Devices</a></b> - Prahalathan Sundaramoorthy, Gautham Krishna Gudur (Solarillion Foundation), Manav Rajiv Moorthy, R Nidhi Bhandari (SSN College of Engineering), Vineeth Vijayaraghavan (Solarillion Foundation)</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>
+<b><a href="papers/QualityDeepSense.pdf">
+QualityDeepSense: Quality-Aware Deep Learning Framework for Internet of Things Applications with Sensor-Temporal Attention</a></b> - 
+Shuochao Yao, Yiran Zhao (UIUC), Shaohan Hu (IBM), Tarek Abdelzaher (UIUC)</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>
+<b><a href="papers/D-Pruner.pdf">
+D-Pruner: Filter-Based Pruning Method for Deep Convolutional Neural Network</a></b> - Loc N. Huynh, Youngki Lee, Rajesh Krishna Balan (Singapore Management University)</p></td>
+</tr>
+
+<tr>
+<td>
+<p>
+<b><a href="papers/On-the-fly_deterministic_binary_filters.pdf">
+On-the-fly deterministic binary filters for memory efficient keyword spotting applications on embedded devices</a></b> - 
+Javier Fernández-Marqués (University of Oxford), Vincent W.-S. Tseng (Cornell University), Sourav Bhattacharya (Nokia Bell Labs), Nicholas D. Lane (University of Oxford and Nokia Bell Labs)</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>
+<b><a href="papers/Mobile_Based_Continuous_Authentication.pdf">
+Mobile Based Continuous Authentication Using Deep Features</a></b> - 
+Mario Parreño Centeno, Yu Guan, Aad van Moorsel (Newcastle University)</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>
+<b><a href="papers/Efficiently_Combining_SVD_Pruning_Clustering_Retraining.pdf">
+Efficiently Combining SVD, Pruning, Clustering and Retraining for Enhanced Neural Network Compression</a></b> - 
+Koen Goetschalckx, Bert Moons, Patrick Wambacq, Marian Verhelst (KU Leuven)</p>
+</td>
+</tr>
+
+<tr><td></td></tr>
+
+</table>
+
+</p>
+
+<h4 class="title">Accepted Work-in-Progress</h4>
+<p>
+<table>
+<tr>
+<td><p><b><a href="papers/BrainSlug.pdf">BrainSlug: Transparent Acceleration of Deep Learning Through Depth-First Parallelism</a></b> - Nicolas Weber, Florian Schmidt, Mathias Niepert, Felipe Huici (NEC Laboratories Europe)
+</p></td>
+</tr>
+
+<tr>
+<td><p><b><a href="papers/Deploying_Deep_Neural_Networks_in_the_Embedded_Space.pdf">Deploying Deep Neural Networks in the Embedded Space</a></b> - Stylianos I. Venieris, Alexandros Kouris, Christos-Savvas Bouganis (Imperial College London)
+</p></td>
+</tr>
+
+<tr><td></td></tr>
+</table>
+</p>
+
+DBW-->
+
+<!-- DBW
+	
+<h4 class="title">Accepted Poster and Demonstration Abstracts</h4>
+<p>
+Still to be announced.
+</p>
+
+DBW -->
+
+<script type="text/javascript">
+function displayDate(dt) {
+  var hour = dt.getHours();
+  var minute = dt.getMinutes();
+  var temp = '' + ((hour > 12) ? hour - 12 : hour);
+  if (hour == 0)
+    temp = '12';
+  temp += ((minute < 10) ? ':0' : ':') + minute;
+  temp += (hour >= 12) ? ' PM' : ' AM';
+  temp += (dt.getDay() - dt.getUTCDay() == 1 ? ' (June 26)' : '');
+  return temp;
+}
+
+function getTimezoneOffset() {
+  var offset = -(new Date()).getTimezoneOffset()/60;
+  var temp = "UTC" + (offset >= 0 ? "+" : "") + offset;
+  return temp;
+}
+
+function getLocalTimezone() {
+  try {
+    return Intl.DateTimeFormat().resolvedOptions().timeZone + ", " + getTimezoneOffset();
+  }
+  catch(e) {
+    return getTimezoneOffset();
+  }
+}
+
+function writeTimeRange(startTime, endTime) {
+  var startTimeObj = new Date("2021-06-25T" + startTime + ":00.000+00:00");
+  var endTimeObj = new Date("2021-06-25T" + endTime + ":00.000+00:00");
+
+  return document.write(displayDate(startTimeObj) + " - " + displayDate(endTimeObj) + " (" + getLocalTimezone() +")");
+}
+</script>
+
+<h3 class="title">Technical Program - 1 July 2022</h3> <!--(BST time zone)</h3--> 
+<p>TBA</p>
+<!--p>
+<b><script type="text/javascript">writeTimeRange("13:00", "13:10")</script><noscript>13:00pm - 13:10pm (UTC time zone)</noscript>:<BR> Welcome and Opening Remarks</b> 
+<BR>
+Stylianos I. Venieris (Samsung AI)
+</p>
+
+<!--p>
+<b>14:00 - 14:45 Keynote 1</b>
+<BR>
+Session Chair: Nic Lane (Samsung AI, University of Cambridge)
+</p>
+
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><img height=105 src='images/dr_bouganis.jpg' /></td>
+<td>
+<div style="font-size: small;">
+<b><a href='keynote.html#bouganis'>Deep Neural Networks in the Embedded Space: Opportunities and Challenges</a></b>
+<BR><BR>
+<a href='https://www.imperial.ac.uk/intelligent-digital-systems/group-members/'>Christos Bouganis</a></b>
+<BR>
+<i>Imperial College London</i>
+</div>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+</table--> 
+
+<!--p>
+<b><script type="text/javascript">writeTimeRange("13:10", "14:10")</script><noscript>1.10pm - 2.10pm (UTC time zone)</noscript>:<BR>
+Session 1 - Efficient Mobile DNN Inference</b>
+<BR>
+Session Chair: Shaohuai Shi (HKUST)
+</p>
+
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="https://dl.acm.org/doi/10.1145/3469116.3470014">ParallelFusion: Towards Maximum Utilization of Mobile GPU for DNN Inference
+</a></b>&nbsp;<BR>Jingyu Lee (<i>Seoul National University</i>), Yunxin Liu (<i>Institute for AI Industry Research (AIR), Tsinghua University</i>), Youngki Lee (<i>Seoul National University</i>)
+<BR>
+<a href="https://youtu.be/vndficgb16s?list=PL6jLuiS6wP5bYF247VPmeONJPllMXJmYd">Full presentation</a>
+</div> 
+</td>
+</tr>
+</table>
+
+<BR>
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="https://dl.acm.org/doi/10.1145/3469116.3470012">Adaptive Inference through Early-Exit Networks: Design, Challenges and Directions
+</a></b>&nbsp;<BR>
+Stefanos Laskaridis, Alexandros Kouris (<i>Samsung AI Center-Cambridge</i>), Nicholas D. Lane (<i>University of Cambridge, Samsung AI Center-Cambridge</i>)
+<BR>
+<a href="https://www.youtube.com/watch?list=PL6jLuiS6wP5bYF247VPmeONJPllMXJmYd&v=yU6mkgAzIl4&feature=youtu.be&ab_channel=ACMSIGMOBILEONLINE">Full presentation</a>
+</div> 
+</td>
+</tr>
+</table>
+
+<BR>
+
+<p>
+<b><script type="text/javascript">writeTimeRange("14:10", "14:30")</script><noscript>2.10pm - 2.30pm (UTC time zone)</noscript>:<BR>
+Coffee Break</b>
+<BR>
+<!--Session Chair: Yunxin Liu (Microsoft Research)-->
+<!--/p>
+
+<p>
+<b><script type="text/javascript">writeTimeRange("14:30", "15:30")</script><noscript>2.30pm - 3.30pm (UTC time zone)</noscript>:<BR>
+Keynote Talk</b>
+<BR>
+Session Chair: Stylianos I. Venieris (Samsung AI)
+</p>
+
+<table>
+	<tr valign='top'>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td><img height=105 src='images/kun_wang.jpg' /></td>
+	<td>
+	<div style="font-size: small;">
+	<b><a href='keynote.html#kunwang'>FPGA-based AI Processor</a></b>
+	<BR><BR>
+	<a href='http://eda.ee.ucla.edu/people/kun-wang/index.html'>Kun Wang</a></b>
+	<BR>
+	<i>UCLA</i>
+	</div>
+	</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	</tr>
+</table> 
+
+<p>
+<b><script type="text/javascript">writeTimeRange("15:30", "16:00")</script><noscript>3.30pm - 4.00pm (UTC time zone)</noscript>:<BR>
+Lunch Break</b>
+<BR>
+<!--Session Chair: Yunxin Liu (Microsoft Research)-->
+<!--/p>
+
+<p>
+<b><script type="text/javascript">writeTimeRange("16:00", "17:00")</script><noscript>4.00pm - 5.00pm (UTC time zone)</noscript>:<BR>
+Session 2 - The State of On-Device Deep Learning</b>
+<BR>
+Session Chair: Ahmed M. Abdelmoniem (KAUST)
+</p>
+
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="https://dl.acm.org/doi/10.1145/3469116.3470009">Towards Ubiquitous Learning: A First Measurement of On-Device Training Performance
+</a></b>&nbsp;<BR>Dongqi Cai (<i>Beijing University of Posts and Telecommunications</i>), Qipeng Wang, Yuanqiang Liu (<i>Peking University</i>), Yunxin Liu (<i>Microsoft Research</i>), Shangguang Wang (<i>Shenzhen Research Institute, Beijing University of Posts and Telecommunications</i>), Mengwei Xu (<i>Beijing University of Posts and Telecommunications</i>)
+<BR>
+<a href="https://youtu.be/oZWKZ0VBNkQ?list=PL6jLuiS6wP5bYF247VPmeONJPllMXJmYd">Full presentation</a>
+</div> 
+</td>
+</tr>
+</table>
+
+<BR>
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="https://dl.acm.org/doi/10.1145/3469116.3470011">Are Mobile DNN Accelerators Accelerating DNNs?
+</a></b>&nbsp;<BR>
+Qingqing Cao (<i>Stony Brook University</i>), Alexandru Eugen Irimiea (<i>University of Oxford</i>), Mohamed Abdelfattah (<i>Samsung AI Center-Cambridge</i>), Aruna Balasubramanian (<i>Stony Brook University</i>), Nicholas D. Lane (<i>University of Cambridge, Samsung AI Center-Cambridge</i>)
+<BR>
+<a href="https://youtu.be/nJSh3TFha6M?list=PL6jLuiS6wP5bYF247VPmeONJPllMXJmYd">Full presentation</a>
+</div> 
+</td>
+</tr>
+</table>
+
+<BR>
+
+<p>
+<b><script type="text/javascript">writeTimeRange("17:00", "17:20")</script><noscript>5.00pm - 5.20pm (UTC time zone)</noscript>:<BR>
+Coffee Break</b>
+<BR>
+<!--Session Chair: Yunxin Liu (Microsoft Research)-->
+<!--/p>
+
+<p>
+<b><script type="text/javascript">writeTimeRange("17:20", "18:35")</script><noscript>5.20pm - 6.35pm (UTC time zone)</noscript>:<BR>
+Session 3 - Low-Cost & Low-Power Deep Learning</b>
+<BR>
+Session Chair: Shiqiang Wang (IBM Research)
+</p>
+
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="https://dl.acm.org/doi/10.1145/3469116.3470010">Benchmarking Video Object Detection Systems on Embedded Devices under Resource Contention
+</a></b>&nbsp;<BR>Jayoung Lee, Pengcheng Wang, Ran Xu (<i>Purdue University</i>), Venkateswara Dasari, Noah Weston (<i>Army Research Lab</i>), Yin Li (<i>University of Wisconsin-Madison</i>), Saurabh Bagchi, Somali Chaterji (<i>Purdue University</i>)
+<BR>
+<a href="https://youtu.be/DYEyBGBzb1c?list=PL6jLuiS6wP5bYF247VPmeONJPllMXJmYd">Full presentation</a>
+</div> 
+</td>
+</tr>
+</table>
+
+<BR>
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="https://dl.acm.org/doi/10.1145/3469116.3470013">Battery-Free Camera Occupancy Detection System
+</a></b>&nbsp;<BR>
+Ali Saffari (<i>University of Washington</i>), Sin Yong Tan (<i>Iowa State University</i>), Mohamad Katanbaf (<i>University of Whashington</i>), Homagni Saha (<i>Iowa State University</i>), Joshua Smith (<i>University of Whashington</i>), Soumik Sarkar (<i>Iowa State University</i>)
+<BR>
+<a href="https://youtu.be/7s-mOcLx0nI?list=PL6jLuiS6wP5bYF247VPmeONJPllMXJmYd">Full presentation</a>
+</div> 
+</td>
+</tr>
+</table>
+
+<BR>
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="https://dl.acm.org/doi/10.1145/3469116.3470015">Enabling Binary Neural Network Training on the Edge
+</a></b>&nbsp;<BR>
+Erwei Wang, James J. Davis (<i>Imperial College London</i>), Daniele Moro, Piotr Zielinski (<i>Google</i>), Jia Jie Lim (<i>Imperial College London</i>), Claudionor Coelho (<i>Palo Alto Networks</i>), Satrajit Chatterjee (<i>Google</i>), George A. Constantinides (<i>Imperial College London</i>)
+<BR>
+<a href="https://youtu.be/0o6ZkvdqH-U?list=PL6jLuiS6wP5bYF247VPmeONJPllMXJmYd">Full presentation</a>
+</div> 
+</td>
+</tr>
+</table>
+
+<BR>
+
+<!--table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="https://dl.acm.org/doi/10.1145/3410338.3412339">Hybrid Fusion Learning: A Hierarchical Learning Model For Distributed Systems
+</a></b>&nbsp;<BR>Anirudh Kasturi, Anish Reddy Ellore, Paresh Saxena, Chittaranjan Hota (<i>BITS Pilani</i>)
+<BR>
+<a href="videos/[2020]_emdl_hybrid_fusion_learning.mp4">Full presentation</a>
+</div> 
+</td>
+</tr>
+</table>
+
+<BR>
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="https://dl.acm.org/doi/10.1145/3410338.3412338">Split Computing for Complex Object Detectors: Challenges and Preliminary Results
+</b></a>&nbsp;<BR>Yoshitomo Matsubara, Marco Levorato
+ (<i>University of California, Irvine</i>)
+<BR>
+<a href="videos/[2020]_emdl_split_computing_for_complex_object_detectors.mp4">Full presentation</a>
+</div> 
+</td>
+</tr>
+</table>
+
+<BR>
+
+<!--table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b>*DeepHome: Distributed Inference with Heterogeneous Devices in the Edge
+</b></div> 
+</td>
+</tr>
+</table>
+
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b>*ActiveHARNet: Towards On-Device Deep Bayesian Active Learning for Human Activity Recognition
+</b></div> 
+</td>
+</tr>
+</table>
+
+<p><b>10:30 - 11:00 Coffee Break</b></p-->
+
+<!--p>
+<b>15.30 - 16.15 Keynote 2</b>
+<BR>
+Session Chair: Marco Gruteser (Google, Rutgers University)
+</p>
+
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><img height=105 src='images/koen_helwegen.jpg' /></td>
+<td>
+<div style="font-size: small;">
+<b><a href='keynote.html#koen'>Taking Efficient Deep Learning to the Extreme with Binarized Neural Networks</a></b>
+<BR><BR>
+<a href='https://scholar.google.co.uk/citations?user=obCgauwAAAAJ&hl=en'>Koen Helwegen</a></b>
+<BR>
+<i>Plumerai Research</i>
+</div>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<p><b>16.15 - 17.00 Session 2</b>
+<BR>
+Session Chair: Hyeji Kim (University of Texas at Austin)
+</p>
+
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="https://dl.acm.org/doi/10.1145/3410338.3412337">Classifying WLAN Packets from the RF Envelope: Towards More Efficient Wireless Network Performance
+</a></b>&nbsp;<BR>Zerina Kapetanovic, Gregory E. Moore, Shanti Garman, Joshua R. Smith (<i>University of Washington</i>)
+<BR>
+<a href="videos/[2020]_emdl_classifying_wlan_packets_from_the_rf_envelope.mp4">Full presentation</a>
+</div> 
+</td>
+</tr>
+</table>
+
+<BR>
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="https://dl.acm.org/doi/10.1145/3410338.3412340">Amplitude Suppression and Direction Activation in Networks
+for 1-bit Faster R-CNN
+</a></b>&nbsp;<BR>
+Sheng Xu, Zhendong Liu, Xuan Gong, Chunlei Liu, Mingyuan Mao, Baochang Zhang (<i>Beihang University</i>)
+<BR>
+<a href="https://media.githubusercontent.com/media/emdl20/emdl20.github.io/master/videos/2020_emdl_amplitude_suppression_and_direct_activation_in_networks_for_1bit_frcnn.mp4">Full presentation</a>
+</div> 
+</td>
+</tr>
+</table>
+
+<BR>
+
+<p>
+<b>17.00 - 17.45 Keynote 3</b>
+<BR>
+Session Chair: Stylianos I. Venieris (Samsung AI)
+</p>
+
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><img height=105 src='images/adria_gascon.jpg' /></td>
+<td>
+<div style="font-size: small;">
+<b><a href='keynote.html#gascon'>Secure Aggregation for Federated Learning and Analytics</a></b>
+<BR><BR>
+<a href='https://www.lsi.upc.edu/~agascon/'>Adri&agrave Gasc&oacuten</a></b>
+<BR>
+<i>Google</i>
+</div>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+</table> 
+
+<BR>
+
+<p>
+<b>17.45 - 18.30 Panel Discussion</b>
+<BR>
+Chair: Stylianos I. Venieris (Samsung AI)
+</p>
+
+<table>
+<tr valign='top'>
+<td>
+<p><b>&nbsp;&nbsp;&nbsp;&nbsp;Themes:</b></p>
+<ul>
+<div style="font-size: small;">
+<li><b>Cross-stack Deployability Challenges for Federated Learning
+</b>&nbsp;</li></div>
+<div style="font-size: small;">
+<li><b>The Interplay between DNN and Processor Design
+</b>&nbsp;</li></div> 
+</td>
+</tr>
+</table>
+<table>
+<tr valign='top'>
+<td width="33%">
+<img height=90 src='images/dr_bouganis.jpg' /><BR>
+<div style="font-size: small;">
+<a href='https://www.imperial.ac.uk/intelligent-digital-systems/group-members/'>Christos Bouganis</a> <BR> (<i>Imperial College London</i>)
+</div>
+</td>
+<td width="33%">
+<img height=90 src='images/koen_helwegen.jpg' /><BR>
+<div style="font-size: small;">
+<a href='https://scholar.google.co.uk/citations?user=obCgauwAAAAJ&hl=en'>Koen Helwegen</a> <BR> (<i>Plumerai</i>)
+</div>
+</td>
+<td width="33%">
+<img height=90 src='images/aruna_balasubramanian.jpg' /><BR>
+<div style="font-size: small;">
+<a href="https://www3.cs.stonybrook.edu/~arunab/">Aruna Balasubramanian</a> <BR> (<i>Stony Brook University</i>)
+</div>
+</td>
+<td width="33%">
+<img height=90 src='images/poonam_yadav.jpg' /><BR>
+<div style="font-size: small;">
+<a href="https://poonamyadav.net/">Poonam Yadav</a> <BR> (<i>University of York, UK</i>)
+</div>
+</td>
+<!--td>
+<p><b>&nbsp;&nbsp;&nbsp;&nbsp;Panelists:</b></p>
+<ul>
+<div style="font-size: small;">
+<li>Christos Bouganis (Imperial College London), Koen Helwegen (Plumerai), Aruna Balasubramanian (Stony Brook University), Poonam Yadav (University of York, UK) &nbsp;</li></div>
+</td-->
+<!--/tr>
+</table>
+
+
+<p>
+<b>18.30 - 19.15 TensorFlow Federated (TFF) Tutorial</b>
+<BR>
+Chairs: Emily Glanz (Google), Weikang Song (Google)
+</p>
+
+<!--h4>More TBA</h4-->
+
+<!--table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b>*Enhanced Partitioning of DNN Layers for Uploading from Mobile Devices to Edge Servers
+</b></div> 
+</td>
+</tr>
+</table>
+
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b>*A Case for Two-stage Inference with Knowledge Caching
+</b></div> 
+</td>
+</tr>
+</table>
+
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b>*Exploring Image Reconstruction Attack in Deep Learning Computation Offloading
+</b></div> 
+</td>
+</tr>
+</table>
+
+<p><b>11:45 - 12:30 Panel Discussion</b></p>
+
+<p><b>12:30 - 14:00 Lunch</b></p>
+
+<p><b>14:00 - 15:00 Keynote 2</b></p>
+
+<p><b>15:00 - 15:30 Coffee Break</b></p>
+<p><b>15:00 - 16:00 Session 3</b></p>
+
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b>*EmBench: Demystifying The Performance Of Deep Neural Networks Across Modern Commodity Devices 
+</b></div> 
+</td>
+</tr>
+</table>
+
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b>*Bluetooth Beacon-Based Indoor Localization Using Self-Learning Neural Network
+</b></div> 
+</td>
+</tr>
+</table>
+
+
+<p><b>17:15 - 17:30 Closing Remarks</b></p-->
+
+
+<!--
+
+<h3 class="title">Technical Program</h3> 
+<p>
+<b>08:45 - 09:00 Workshop Welcome</b>
+<BR>
+<BR>
+<b>09:00 - 10:00 Keynote</b><BR>
+<i>Session Chair: Nic Lane (University of Oxford)</i>
+</p>
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><img height=105 src='images/Dimitris_Papailiopoulos.jpg' /></td>
+<td>
+<div style="font-size: small;">
+<b><a href='keynote.html#papailiopoulos'>Overcoming the Challenges of Distributed Learning</a></b>
+<BR><BR>
+<a href='http://papail.io/'>Dimitris Papailiopoulos</a></b>
+<BR>
+<i>University of Wisconsin-Madison</i>
+</div>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+</table> 
+<p>
+<b>10:00 - 10:30 Session 1</b><BR>
+<i>Session Chair: Inseok Hwang (IBM Research)</i>
+</p>
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="papers/Efficiently_Combining_SVD_Pruning_Clustering_Retraining.pdf">
+Efficiently Combining SVD, Pruning, Clustering and Retraining for Enhanced Neural Network Compression
+</a></b>&nbsp;<BR>Koen Goetschalckx, Bert Moons, Patrick Wambacq, Marian Verhelst (<i>KU Leuven</i>)</div> 
+</td>
+</tr>
+</table>
+<BR>
+<table>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;"><b><a href="papers/Deploying_Deep_Neural_Networks_in_the_Embedded_Space.pdf">Deploying Deep Neural Networks in the Embedded Space</a></b>&nbsp;<BR>Stylianos I. Venieris, Alexandros Kouris, Christos-Savvas Bouganis (<i>Imperial College London</i>)</div> 
+</td>
+</tr>
+</table> 
+<p>
+<b>10:30 - 11:00 Coffee Break</b>
+<BR>
+<BR>
+<b>11:00 - 11:45 Session 2</b><BR>
+<i>Session Chair: Rahul Shah (Intel Research)</i>
+</p>
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="papers/D-Pruner.pdf">
+D-Pruner: Filter-Based Pruning Method for Deep Convolutional Neural Network</a></b>&nbsp;<BR>Loc N. Huynh, Youngki Lee, Rajesh Krishna Balan (<i>Singapore Management University</i>)</div> 
+</td>
+</tr>
+</table>
+<BR>
+<table>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;"><b><a href="papers/On-the-fly_deterministic_binary_filters.pdf">
+On-the-fly deterministic binary filters for memory efficient keyword spotting applications on embedded devices</a></b>&nbsp;<BR>Javier Fernández-Marqués (<i>University of Oxford</i>), Vincent W.-S. Tseng (<i>Cornell University</i>), Sourav Bhattacharya (<i>Nokia Bell Labs</i>), Nicholas D. Lane (<i>University of Oxford and Nokia Bell Labs</i>)</div> 
+</td>
+</tr>
+</table>
+<BR>
+<table>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;"><b><a href="papers/Mobile_Based_Continuous_Authentication.pdf">
+Mobile Based Continuous Authentication Using Deep Features</a></b>&nbsp;<BR>Mario Parreño Centeno, Yu Guan, Aad van Moorsel (<i>Newcastle University</i>)</div> 
+</td>
+</tr>
+</table> 
+<p>
+<b>11:45 - 12:30 Panel Discussion</b><BR>
+<i>Moderator: Nic Lane (University of Oxford)</i>
+</p>
+<table>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="center">
+<div style="font-size: small;">
+<b>"Mobile and Embedded Deep Learning: Where are we going? And how will we get there?"</b><BR>
+<table>
+<tr valign="top">
+<td width="33%">
+<img height=90 src='images/Dimitris_Papailiopoulos.jpg' /><BR>
+Dimitris Papailiopoulos<BR>(<i>University of Wisconsin-Madison</i>)
+</td>
+<td width="33%">
+<img height=90 src='images/Paul_Whatmough.jpg' /><BR>
+Paul Whatmough<BR>(<i>Arm ML Research and Harvard University</i>)
+</td>
+<td width="33%">
+<img height=90 src='images/petewarden.png' /><BR>
+Pete Warden<BR>(<i>Google Brain</i>)
+</td>
+</tr>
+</table>
+</div> 
+</td>
+</tr>
+</table>
+<p>
+<b>12:30 - 13:30 Lunch</b>
+<BR>
+<BR>
+<b>13:30 - 14:30 Keynote</b><BR>
+<i>Session Chair: Hongkai Wen (University of Warwick)</i>
+</p>
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><img height=105 src='images/Paul_Whatmough.jpg' /></td>
+<td>
+<div style="font-size: small;">
+<b><a href='keynote.html#whatmough'>Energy-Efficient Neural Network Inference for The Embedded Masses</a></b>
+<BR><BR>
+<a href='https://scholar.google.co.uk/citations?user=hu3x-LoAAAAJ&hl=en'>Paul Whatmough</a></b>
+<BR>
+<i>Arm ML Research and Harvard University</i>
+</div>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+</table> 
+
+<p>
+<b>14:30 - 15:00 Session 3</b><BR>
+<i>Session Chair: Hongkai Wen (University of Warwick)</i>
+</p>
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="papers/BrainSlug.pdf">BrainSlug: Transparent Acceleration of Deep Learning Through Depth-First Parallelism</a></b>&nbsp;<BR>Nicolas Weber, Florian Schmidt, Mathias Niepert, Felipe Huici (<i>NEC Laboratories Europe</i>)</div> 
+</td>
+</tr>
+</table>
+<BR>
+<table>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;"><b><a href="papers/Mayo.pdf">
+Mayo: A Framework for Auto-generating Hardware Friendly Deep Neural Networks</a></b>&nbsp;<BR>Yiren Zhao (<i>University of Cambridge</i>), Xitong Gao (<i>Shenzhen Institute of Advanced Technology</i>), Robert Mullins (<i>University of Cambridge</i>), Chengzhong Xu (<i>Shenzhen Institute of Advanced Technology</i>)</div> 
+</td>
+</tr>
+</table>
+<p>
+<b>15:00 - 15:30 Coffee Break</b>
+<BR>
+<BR>
+<b>15:30 - 16:30 Keynote</b><BR>
+<i>Session Chair: Sourav Bhattacharya (Nokia Bell Labs)</i>
+</p>
+<table>
+<tr valign='top'>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><img height=105 src='images/petewarden.png' /></td>
+<td>
+<div style="font-size: small;">
+<b><a href='keynote.html#warden'>Emerging Techniques for Constrained-Resource Deep Learning</a></b>
+<BR><BR>
+<a href='https://research.google.com/pubs/PeteWarden.html'>Pete Warden</a></b>
+<BR>
+<i>Google Brain</i>
+</div>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+</table> 
+<p>
+<b>16:30 - 17:15 Session 4</b><BR>
+<i>Session Chair: Nicolas Weber (NEC Labs Europe)</i>
+</p>
+<table>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="papers/HARNet.pdf">
+HARNet: Towards On-Device Incremental Learning using Deep Ensembles on Constrained Devices</a>
+</b>&nbsp;<BR>Prahalathan Sundaramoorthy, Gautham Krishna Gudur (<i>Solarillion Foundation</i>), Manav Rajiv Moorthy, R Nidhi Bhandari (<i>SSN College of Engineering</i>), Vineeth Vijayaraghavan (<i>Solarillion Foundation</i>)</div> 
+</td>
+</tr>
+</table>
+<BR>
+<table>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="papers/Neural_Network_Syntax_Analyzer_for_Embedded_Standardized_Deep_Learning.pdf">
+Neural Network Syntax Analyzer for Embedded Standardized Deep Learning</a>
+</b>&nbsp;<BR>MyungJae Shin, Joongheon Kim (<i>Chung-Ang University</i>), Aziz Mohaisen (<i>University of Central Florida</i>), Jaebok Park, Kyung Hee Lee (<i>ETRI</i>)</div> 
+</td>
+</tr>
+</table> 
+<BR>
+<table>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<div style="font-size: small;">
+<b><a href="papers/QualityDeepSense.pdf">
+QualityDeepSense: Quality-Aware Deep Learning Framework for Internet of Things Applications with Sensor-Temporal Attention</a>
+</b>&nbsp;<BR>Shuochao Yao, Yiran Zhao (<i>UIUC</i>), Shaohan Hu (<i>IBM</i>), Tarek Abdelzaher (<i>UIUC</i>)</div> 
+</td>
+</tr>
+</table> 
+<p>
+<b>17:15 - 17:30 Town Hall</b>
+</p>
+-->
+		
+	</div>
+	<div id="colTwo">
+		<ul>
+			<h2><a href="cfp.pdf">Call for Papers [PDF]</a></h2>
+			<h2><a href="committee.html">Committees</a></h2>
+			<h2><a href="keynote.html">Keynote Talks</a></h2>
+			<!--h2><a href="attendee.html">Attendee Information</a></h2-->
+			<h2><a href="program.html">Technical Program</a></h2>
+			<h2><a href="history.html">Prior Workshops</a></h2>
+			<h2><a href="submission.html">Submissions</a></h2>
+	
+			<BR>
+			<li>
+				<h2>Keynote Speakers</h2>
+				<table>
+					<tr valign='top'>
+							<td><!--img height=80 src='images/kun_wang.jpg' /--></td>
+					<td>
+						<!--a href='http://eda.ee.ucla.edu/people/kun-wang/index.html'>Kun Wang</a><BR>UCLA-->
+					TBD
+					</td>
+					</tr>
+					<!--tr valign='top'>
+						<td><img height=80 width=58 src='images/koen_helwegen.jpg' /></td>
+						<td>
+						<a href='https://scholar.google.co.uk/citations?user=obCgauwAAAAJ&hl=en'>Koen Helwegen</a><BR>Plumerai Research
+						</td>
+					</tr>
+					<tr valign='top'>
+						<td><img height=70 width=58 src='images/adria_gascon.jpg' /></td>
+						<td>
+						<a href='https://www.lsi.upc.edu/~agascon/'>Adri&agrave Gasc&oacuten</a><BR>Google
+						</td>
+					</tr-->
+				</table>
+			</li>
+
+<table>
+<!--tr valign='top'><td><img height=80 src='images/Carlo.png' /></td>
+<td>
+<a href='https://scholar.google.com/citations?hl=en&user=T6dyV6gAAAAJ&view_op=list_works'>Carlo C. del Mundo</a><BR>Xnor.ai
+</td></tr-->
+</table>
+
+
+<BR>
+				<h2>Important Dates</h2>
+				<ul>
+					<!--li><i><strong>Paper Submission Deadline</h3></i>:<br>&nbsp;&nbsp;&nbsp;&nbsp;<s>April 9th - 11:59PM AOE</s><br>
+					<font color="0000FF">&nbsp;May 7th&nbsp; - 11:59PM AOE (Final)</font></li>
+					<!--li style="line-height: 5px"><br></li-->
+					<!--font color="0000FF">&nbsp;&nbsp;&nbsp;&nbsp;April 24th&nbsp; - 11:59PM AOE</font></li-->
+					<!--li style="line-height: 5px"><br></li-->
+					<!--li><i><strong>Author Notification</strong></i>: <BR>&nbsp;&nbsp;&nbsp;&nbsp;June 20th</li-->
+					<!--li><i><strong>Author Notification</strong></i>: <BR>&nbsp;&nbsp;&nbsp;&nbsp;May 24th</li>
+					<!--<li style="line-height: 5px"><br></li>
+					<li><i><strong>Camera Ready Due</strong></i>:<BR>&nbsp;&nbsp;&nbsp;&nbsp;May 4th</li>-->
+					<!--li style="line-height: 5px"><br></li>
+					<li><i><strong>WiP and Demo Deadline</strong></i>:<BR>&nbsp;&nbsp;&nbsp;&nbsp;May 7th - 11:59PM AOE</li><li style="line-height: 5px"><br></li>
+					<li><i><strong>Workshop Event</strong></i>:<BR>&nbsp;&nbsp;&nbsp;&nbsp;June 25th 2021</li-->
+					<li>TBD</li>
+				</ul>
+			</li>		
+		</ul>
+		<BR>
+		<img width="50%" style="display:block; margin-left: auto; margin-right: auto;" src="images/acm-logo2.png"></img>
+		<BR>
+		<img width="50%" style="display:block; margin-left: auto; margin-right: auto;" src="images/sigmobile.gif"></img>
+	</div>
+	<div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+	<p></p>
+</div>
+</body>
+</html>

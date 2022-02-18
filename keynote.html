@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>EMDL Workshop 2022</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+	<a href='https://www.sigmobile.org/mobisys/2022/'><img align="right" vertical-align="text-top" width="35%" style="margin: 00px 5px" src=images/mobisys22.png></img></a>
+
+	<h1><a href="index.html">6th International Workshop on<BR>Embedded and Mobile Deep Learning</a></h1>
+	<h2>Workshop co-located with <a href="https://www.sigmobile.org/mobisys/2022/">ACM MobiSys 2022</a></h2>
+	<h3>1 July '22 - Portland, Oregon</h3>
+
+</div>
+<div id="content">
+	<div id="colOne">
+	<h3 class="title">Keynote Speakers</h3>
+
+	<p>TBD</p>
+	<!--p>An exciting keynote is confirmed to be given by Kun Wang (UCLA).</p>
+<p>
+<b>FPGA-based AI Processor</b>
+<img  valign="top" align="right" height=150 src='images/kun_wang.jpg' style="float: right; padding-left: 10px; padding-bottom: 2px;"></img><BR>
+<a href='http://eda.ee.ucla.edu/people/kun-wang/index.html'>Kun Wang</a><BR>UCLA
+
+<BR>
+<p align="justify">
+The rapid advancement of Artificial Intelligence (AI) is making our daily life easier with smart assistants, such as automatic medical analyzer, bank plagiarism checkers, and traffic predictions. Among all AI algorithms, deep learning algorithms, especially deep convolutional neural networks (DCNNs), have achieved top performance on AI tasks. However, the dramatically better performance of DCNNs comes with a cost of more computation complexity compared with traditional methods, which calls for hardware acceleration. Customized FPGA accelerators have been widely explored since 2016, demonstrating FPGA as a promising solution. However, designing a high-performance accelerator for a certain network can be time-consuming as it involves vast design optimizations, such as memory bandwidth optimization, area and timing tuning, and software-hardware interface development. Therefore, an auto-code generator that can produce target codes based on FPGA constraints and network configurations can be an efficient end-to-end solution.
+This talk will provide an initial toolchain for an FPGA-based AI processor. The toolchain can compile DCNNs from popular deep learning frameworks and map the DCNNs to the FPGA-based AI processor for acceleration, which greatly reduced the human effort. During the compilation, the networks are quantized with negligible accuracy loss to reduce bandwidth requirements and computation resources. Moreover, a domain-specific instruction set with optimized granularity is defined to ensure flexibility and efficiency. Finally, we focus on accelerator cards and applications for edge and cloud scenarios.
+</p>
+</p-->
+
+<!--p>
+<b>Taking Efficient Deep Learning to the Extreme with Binarized Neural Networks</b>
+<img  valign="top" align="right" height=150 src='images/koen_helwegen.jpg' style="float: right; padding-left: 10px; padding-bottom: 2px;"></img><BR>
+<a name="koen" href='https://scholar.google.co.uk/citations?user=obCgauwAAAAJ&hl=en'>Koen Helwegen</a><BR>Plumerai Research
+
+<BR><BR>
+<p align="justify">
+Binarized Neural Networks (BNNs) are deep learning models in which weights and activations are encoded not using 32, 16 or 8 bits, but using only 1 bit. These models promise much lower memory requirements as well as extremely efficient execution, as expensive convolutions can be reduced to simple xnor and popcount instructions. They may revolutionize the field of deep learning on the edge.
+</p>
+
+<p align="justify">
+However, several fundamental and practical obstacles have limited the use of BNNs in real-world applications. Existing gradient descent-based optimization algorithms cannot be applied directly to BNNs due to their discrete nature. Support on existing hardware platforms is limited. Popular frameworks such as TensorFlow and TensorFlow Lite do not support implementation, training and deployment of BNNs.
+</p>
+
+<p align="justify">
+In this talk, we discuss the integrated approach that is needed to tackle these issues. We explore research by Plumerai and others that is pushing the capacity to design and train BNNs, including the binary optimizer Bop and recent progress in the application of knowledge distillation to BNNs. We present the Larq Ecosystem, a family of open-source libraries we developed to facilitate development and deployment of BNNs. We have arrived at an exciting time where It is possible to grab a pretrained, state-of-the-art BNN, finetune it for the task at hand and deploy it for inference on several popular hardware platforms, including Armv8-a.
+</p>
+</p>
+
+<p>
+<b>Secure Aggregation for Federated Learning and Analytics</b>
+<img  valign="top" align="right" height=150 src='images/adria_gascon.jpg' style="float: right; padding-left: 10px; padding-bottom: 2px;"></img><BR>
+<a name="gascon" href='https://www.lsi.upc.edu/~agascon/'>Adri&agrave Gasc&oacuten</a><BR>Google
+
+<BR><BR>
+<p align="justify">
+In this talk I will present recent results secure multi-party computation protocols for aggregation of large vectors, and their role in Federated Learning (FL) and analytics (FA). I'll introduce the first constructions for secure aggregation in the FL setting that achieve polylogarithmic communication and computation per client. Our constructions provide security in the semi-honest and the malicious setting where the adversary controls the server and a 𝛾-fraction of the clients, and correctness with up to 𝛿-fraction dropouts among the clients. 
+</p>
+
+<p align="justify">
+Beyond improving the known asymptotics for secure aggregation, our constructions achieve efficient concrete parameters. For instance, the semi-honest secure aggregation can handle a billion clients at the per client cost of the protocol of Bonawitz et al. (CCS2017) for a thousand clients. In the malicious setting with 104 clients, each client needs to communicate only with 3% of the clients to have a guarantee that its input has been added together with the inputs of at least 5000 other clients, while withstanding up to 5% corrupt clients and 5% dropouts.
+</p>
+
+<p align="justify">
+I will also discuss an application of secure aggregation to the task of secure shuffling which enables a cryptographically secure instantiation of the shuffle model of differential privacy, and conclude discussing open problems in this space.
+</p>
+
+</p-->
+
+<BR>
+
+	</div>
+	<div id="colTwo">
+		<ul>
+			<h2><a href="cfp.pdf">Call for Papers [PDF]</a></h2>
+			<h2><a href="committee.html">Committees</a></h2>
+			<h2><a href="keynote.html">Keynote Talks</a></h2>
+			<!--h2><a href="attendee.html">Attendee Information</a></h2-->
+			<h2><a href="program.html">Technical Program</a></h2>
+			<h2><a href="history.html">Prior Workshops</a></h2>
+			<h2><a href="submission.html">Submissions</a></h2>
+			
+			<BR>
+			<li>
+				<h2>Keynote Speakers</h2>
+				<table>
+					<tr valign='top'>
+							<td><!--img height=80 src='images/kun_wang.jpg' /--></td>
+					<td>
+						<!--a href='http://eda.ee.ucla.edu/people/kun-wang/index.html'>Kun Wang</a><BR>UCLA-->
+					TBD
+					</td>
+					</tr>
+					<!--tr valign='top'>
+						<td><img height=80 width=58 src='images/koen_helwegen.jpg' /></td>
+						<td>
+						<a href='https://scholar.google.co.uk/citations?user=obCgauwAAAAJ&hl=en'>Koen Helwegen</a><BR>Plumerai Research
+						</td>
+					</tr>
+					<tr valign='top'>
+						<td><img height=70 width=58 src='images/adria_gascon.jpg' /></td>
+						<td>
+						<a href='https://www.lsi.upc.edu/~agascon/'>Adri&agrave Gasc&oacuten</a><BR>Google
+						</td>
+					</tr-->
+				</table>
+			</li>
+<BR>
+				<h2>Important Dates</h2>
+				<ul>
+					<!--li><i><strong>Paper Submission Deadline</h3></i>:<br>&nbsp;&nbsp;&nbsp;&nbsp;<s>April 9th - 11:59PM AOE</s><br>
+					<font color="0000FF">&nbsp;May 7th&nbsp; - 11:59PM AOE (Final)</font></li>
+					<!--li style="line-height: 5px"><br></li-->
+					<!--font color="0000FF">&nbsp;&nbsp;&nbsp;&nbsp;April 24th&nbsp; - 11:59PM AOE</font></li-->
+					<!--li style="line-height: 5px"><br></li-->
+					<!--li><i><strong>Author Notification</strong></i>: <BR>&nbsp;&nbsp;&nbsp;&nbsp;June 20th</li-->
+					<!--li><i><strong>Author Notification</strong></i>: <BR>&nbsp;&nbsp;&nbsp;&nbsp;May 24th</li>
+					<!--<li style="line-height: 5px"><br></li>
+					<li><i><strong>Camera Ready Due</strong></i>:<BR>&nbsp;&nbsp;&nbsp;&nbsp;May 4th</li>-->
+					<!--li style="line-height: 5px"><br></li>
+					<li><i><strong>WiP and Demo Deadline</strong></i>:<BR>&nbsp;&nbsp;&nbsp;&nbsp;May 7th - 11:59PM AOE</li><li style="line-height: 5px"><br></li>
+					<li><i><strong>Workshop Event</strong></i>:<BR>&nbsp;&nbsp;&nbsp;&nbsp;June 25th 2021</li-->
+					<li>TBD</li>
+				</ul>
+			</li>		
+		</ul>
+		<BR>
+		<img width="50%" style="display:block; margin-left: auto; margin-right: auto;" src="images/acm-logo2.png"></img>
+		<BR>
+		<img width="50%" style="display:block; margin-left: auto; margin-right: auto;" src="images/sigmobile.gif"></img>
+	</div>
+	<div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+	<p></p>
+</div>
+</body>
+</html>
