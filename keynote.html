@@ -25,7 +25,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 	<div id="colOne">
 	<h3 class="title">Keynote Speakers</h3>
 
-	<p>An exciting keynote is confirmed to be given by Maria Gorlatova (Duke University).</p>
+	<p>Two exciting keynotes will be given by Maria Gorlatova (Duke University) and Nikolas Kourtellis (Telefonica Research).</p>
 <p>
 <b>Intelligent Mobile Augmented Reality: Promise, Challenges, and Solutions</b>
 <img  valign="top" align="right" height=150 src='images/maria_gorlatova.jpg' style="float: right; padding-left: 10px; padding-bottom: 2px; padding-top: 4px"></img><BR>
@@ -35,46 +35,20 @@ Released for free under a Creative Commons Attribution 2.5 License
 <p align="justify">
 Mobile augmented reality (AR), which integrates virtual objects with 3D real environments in real time, has been showing outstanding potential in many application areas including education, retail, and medicine. A key part of the so-called Metaverse that is being developed by multiple companies including Apple, Meta, Google, and Microsoft, AR is broadly expected to redefine how humans interact with the world around them. Yet current AR falls short of many of the expectations. This talk presents our vision for multi-device edge computing-supported architectures for next-generation intelligent AR. The talk describes shortcomings in modern AR’s semantic, spatial, and user context awareness capabilities, and describes how a combination of advances in edge computing and machine learning can address some of the key challenges. The talk showcases several next-generation AR applications, including AR in surgery and mental health.
 </p>
-</p-->
-
-<!--p>
-<b>Taking Efficient Deep Learning to the Extreme with Binarized Neural Networks</b>
-<img  valign="top" align="right" height=150 src='images/koen_helwegen.jpg' style="float: right; padding-left: 10px; padding-bottom: 2px;"></img><BR>
-<a name="koen" href='https://scholar.google.co.uk/citations?user=obCgauwAAAAJ&hl=en'>Koen Helwegen</a><BR>Plumerai Research
-
-<BR><BR>
-<p align="justify">
-Binarized Neural Networks (BNNs) are deep learning models in which weights and activations are encoded not using 32, 16 or 8 bits, but using only 1 bit. These models promise much lower memory requirements as well as extremely efficient execution, as expensive convolutions can be reduced to simple xnor and popcount instructions. They may revolutionize the field of deep learning on the edge.
-</p>
-
-<p align="justify">
-However, several fundamental and practical obstacles have limited the use of BNNs in real-world applications. Existing gradient descent-based optimization algorithms cannot be applied directly to BNNs due to their discrete nature. Support on existing hardware platforms is limited. Popular frameworks such as TensorFlow and TensorFlow Lite do not support implementation, training and deployment of BNNs.
-</p>
-
-<p align="justify">
-In this talk, we discuss the integrated approach that is needed to tackle these issues. We explore research by Plumerai and others that is pushing the capacity to design and train BNNs, including the binary optimizer Bop and recent progress in the application of knowledge distillation to BNNs. We present the Larq Ecosystem, a family of open-source libraries we developed to facilitate development and deployment of BNNs. We have arrived at an exciting time where It is possible to grab a pretrained, state-of-the-art BNN, finetune it for the task at hand and deploy it for inference on several popular hardware platforms, including Armv8-a.
-</p>
 </p>
 
 <p>
-<b>Secure Aggregation for Federated Learning and Analytics</b>
-<img  valign="top" align="right" height=150 src='images/adria_gascon.jpg' style="float: right; padding-left: 10px; padding-bottom: 2px;"></img><BR>
-<a name="gascon" href='https://www.lsi.upc.edu/~agascon/'>Adri&agrave Gasc&oacuten</a><BR>Google
+<b>Will it be Privacy or Utility? Can I have both (with Privacy-Preserving ML) please?
+</b>
+<img  valign="top" align="right" height=150 src='images/nikolas_kourtellis.jpg' style="float: right; padding-left: 10px; padding-bottom: 2px; padding-top: 4px"></img><BR>
+<a href='https://scholar.google.com/citations?user=Q5oWwiQAAAAJ&hl'>Nikolas Kourtellis</a><BR>Telefonica Research
 
-<BR><BR>
+<BR>
 <p align="justify">
-In this talk I will present recent results secure multi-party computation protocols for aggregation of large vectors, and their role in Federated Learning (FL) and analytics (FA). I'll introduce the first constructions for secure aggregation in the FL setting that achieve polylogarithmic communication and computation per client. Our constructions provide security in the semi-honest and the malicious setting where the adversary controls the server and a 𝛾-fraction of the clients, and correctness with up to 𝛿-fraction dropouts among the clients. 
+In this talk, I will dive into the realm of privacy-preserving machine learning (PPML) and cover recent advances that have the potential to unlock the power of user data for companies, while still preserving the privacy of the data owners. I will discuss major tradeoffs between privacy and machine learning utility of PPML and potential adversarial attacks that can be mounted on such modeling. In particular, I will talk about technology we have been building based on Federated Learning (FL), Differential Privacy (DP), Trusted Execution Environments (TEE), Edge Computing (EC) and detailed system design, engineering and experimentation. I will present the design, building and testing of the first Federated Learning as a Service platform (FLaaS) which supports on-device training between mobile apps, the first Privacy-Preserving FL solution (PPFL) based on TEEs, and the first Hierarchical FL solution with DP (HFL). I will elaborate on their ML modeling functionalities, performance and system overhead tradeoffs, and how thheir privacy-preserving design can mitigate such adversarial data modeling attacks without compromising model utility.
+</p>
 </p>
 
-<p align="justify">
-Beyond improving the known asymptotics for secure aggregation, our constructions achieve efficient concrete parameters. For instance, the semi-honest secure aggregation can handle a billion clients at the per client cost of the protocol of Bonawitz et al. (CCS2017) for a thousand clients. In the malicious setting with 104 clients, each client needs to communicate only with 3% of the clients to have a guarantee that its input has been added together with the inputs of at least 5000 other clients, while withstanding up to 5% corrupt clients and 5% dropouts.
-</p>
-
-<p align="justify">
-I will also discuss an application of secure aggregation to the task of secure shuffling which enables a cryptographically secure instantiation of the shuffle model of differential privacy, and conclude discussing open problems in this space.
-</p>
-
-</p-->
 
 <BR>
 
@@ -97,6 +71,12 @@ I will also discuss an application of secure aggregation to the task of secure s
 							<td><img height=80 src='images/maria_gorlatova.jpg'></td>
 					<td>
 						<a href='https://maria.gorlatova.com/bio/'>Maria Gorlatova</a><BR>Duke University
+					</td>
+					</tr>
+					<tr valign='top'>
+							<td><img height=80 src='images/nikolas_kourtellis.jpg'></td>
+					<td>
+						<a href='https://scholar.google.com/citations?user=Q5oWwiQAAAAJ&hl'>Nikolas Kourtellis</a><BR>Telefonica Research
 					</td>
 					</tr>
 				</table>
