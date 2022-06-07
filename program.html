@@ -141,7 +141,7 @@ function displayDate(dt) {
     temp = '12';
   temp += ((minute < 10) ? ':0' : ':') + minute;
   temp += (hour >= 12) ? ' PM' : ' AM';
-  temp += (dt.getDay() - dt.getUTCDay() == 1 ? ' (June 26)' : '');
+  temp += (dt.getDay() - dt.getUTCDay() == 1 ? ' (July 1)' : '');
   return temp;
 }
 
@@ -161,8 +161,8 @@ function getLocalTimezone() {
 }
 
 function writeTimeRange(startTime, endTime) {
-  var startTimeObj = new Date("2021-06-25T" + startTime + ":00.000+00:00");
-  var endTimeObj = new Date("2021-06-25T" + endTime + ":00.000+00:00");
+  var startTimeObj = new Date("2022-06-01T" + startTime + ":00.000+00:00");
+  var endTimeObj = new Date("2022-07-01T" + endTime + ":00.000+00:00");
 
   return document.write(displayDate(startTimeObj) + " - " + displayDate(endTimeObj) + " (" + getLocalTimezone() +")");
 }
@@ -170,73 +170,145 @@ function writeTimeRange(startTime, endTime) {
 
 <h3 class="title">Technical Program - 1 July 2022</h3> <!--(BST time zone)</h3--> 
 <p>TBA</p>
-<!--p>
-<b><script type="text/javascript">writeTimeRange("13:00", "13:10")</script><noscript>13:00pm - 13:10pm (UTC time zone)</noscript>:<BR> Welcome and Opening Remarks</b> 
+<p>
+<b><script type="text/javascript">writeTimeRange("16:20", "16:30")</script><noscript>16:20pm - 16:30pm (UTC time zone)</noscript>:<BR> Welcome and Opening Remarks</b> 
 <BR>
-Stylianos I. Venieris (Samsung AI)
+<!--Stylianos I. Venieris (Samsung AI)-->
 </p>
 
-<!--p>
-<b>14:00 - 14:45 Keynote 1</b>
+<p>
+<b><script type="text/javascript">writeTimeRange("16:30", "17:30")</script><noscript>16.30pm - 17.30pm (UTC time zone)</noscript>:<BR>
+Keynote 1</b>
 <BR>
-Session Chair: Nic Lane (Samsung AI, University of Cambridge)
-</p>
-
-<table>
-<tr valign='top'>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td><img height=105 src='images/dr_bouganis.jpg' /></td>
-<td>
-<div style="font-size: small;">
-<b><a href='keynote.html#bouganis'>Deep Neural Networks in the Embedded Space: Opportunities and Challenges</a></b>
-<BR><BR>
-<a href='https://www.imperial.ac.uk/intelligent-digital-systems/group-members/'>Christos Bouganis</a></b>
-<BR>
-<i>Imperial College London</i>
-</div>
-</td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-</tr>
-</table--> 
-
-<!--p>
-<b><script type="text/javascript">writeTimeRange("13:10", "14:10")</script><noscript>1.10pm - 2.10pm (UTC time zone)</noscript>:<BR>
-Session 1 - Efficient Mobile DNN Inference</b>
-<BR>
-Session Chair: Shaohuai Shi (HKUST)
+Session Chair: TBD
 </p>
 
 <table>
-<tr valign='top'>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td>
-<div style="font-size: small;">
-<b><a href="https://dl.acm.org/doi/10.1145/3469116.3470014">ParallelFusion: Towards Maximum Utilization of Mobile GPU for DNN Inference
-</a></b>&nbsp;<BR>Jingyu Lee (<i>Seoul National University</i>), Yunxin Liu (<i>Institute for AI Industry Research (AIR), Tsinghua University</i>), Youngki Lee (<i>Seoul National University</i>)
-<BR>
-<a href="https://youtu.be/vndficgb16s?list=PL6jLuiS6wP5bYF247VPmeONJPllMXJmYd">Full presentation</a>
-</div> 
-</td>
-</tr>
+	<tr valign='top'>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td><img height=105 src='images/maria_gorlatova.jpg' /></td>
+		<td>
+		<div style="font-size: small;">
+		<b><a href='keynote.html#maria_gorlatova'>Intelligent Mobile Augmented Reality: Promise, Challenges, and Solutions</a></b>
+		<BR><BR>
+		<a href='https://maria.gorlatova.com/bio/'>Maria Gorlatova</a></b>
+		<BR>
+		<i>Duke University</i>
+		</div>
+		</td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	</tr>
+</table>
+
+<p>
+	<b><script type="text/javascript">writeTimeRange("17:30", "18:00")</script><noscript>17.30pm - 18.00pm (UTC time zone)</noscript>:<BR>
+	Coffee Break</b>
+	<BR>
+</p>
+
+
+<p>
+	<b><script type="text/javascript">writeTimeRange("18:00", "18:30")</script><noscript>18.00pm - 18.30pm (UTC time zone)</noscript>:<BR>
+	Session 1 - Efficient Mobile DNN Inference</b>
+	<BR>
+	Session Chair: TBD
+</p>
+
+<table>
+	<tr valign='top'>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td>
+		<div style="font-size: small;">
+		<b><!--a href="https://dl.acm.org/doi/10.1145/3469116.3470014"-->Towards Edge-assisted Real-time 3D Segmentation of Large Scale LIDAR Point Clouds
+		<!--/a--></b>&nbsp;<BR>Fraser McLean, Leyang Xue, Chris Xiaoxuan Lu, Mahesh Marina (<i>University of Edinburgh</i>)
+		<BR>
+		</div> 
+		</td>
+	</tr>
 </table>
 
 <BR>
 <table>
-<tr valign='top'>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td>
-<div style="font-size: small;">
-<b><a href="https://dl.acm.org/doi/10.1145/3469116.3470012">Adaptive Inference through Early-Exit Networks: Design, Challenges and Directions
-</a></b>&nbsp;<BR>
-Stefanos Laskaridis, Alexandros Kouris (<i>Samsung AI Center-Cambridge</i>), Nicholas D. Lane (<i>University of Cambridge, Samsung AI Center-Cambridge</i>)
-<BR>
-<a href="https://www.youtube.com/watch?list=PL6jLuiS6wP5bYF247VPmeONJPllMXJmYd&v=yU6mkgAzIl4&feature=youtu.be&ab_channel=ACMSIGMOBILEONLINE">Full presentation</a>
-</div> 
-</td>
-</tr>
+	<tr valign='top'>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td>
+		<div style="font-size: small;">
+		<b><!--a href="https://dl.acm.org/doi/10.1145/3469116.3470012"-->Towards On-board Learning for Harvested Energy Prediction
+		<!--/a--></b>&nbsp;<BR>
+		Koustabh Dolui, Ashok Samraj Thangarajan, Thibo Claes, Sam Michiels, Danny Hughes
+		(<i>KU Luven</i>)
+		<BR>
+		</div> 
+		</td>
+	</tr>
+</table>
+
+<p>
+	<b><script type="text/javascript">writeTimeRange("18:30", "19:30")</script><noscript>18.30pm - 19.30pm (UTC time zone)</noscript>:<BR>
+	Keynote 2</b>
+	<BR>
+	Session Chair: TBD 
+</p>
+
+<table>
+	<tr valign='top'>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td><img height=105 src='images/nikolas_kourtellis.jpg' /></td>
+		<td>
+		<div style="font-size: small;">
+		<b><a href='keynote.html#nikolas_kourtellis'>Will it be Privacy or Utility? Can I have both (with Privacy-Preserving ML) please?</a></b>
+		<BR><BR>
+		<a href='https://scholar.google.com/citations?user=Q5oWwiQAAAAJ&hl'>Nikolas Kourtellis</a></b>
+		<BR>
+		<i>Telefonica Research</i>
+		</div>
+		</td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	</tr>
+</table>
+
+<p>
+	<b><script type="text/javascript">writeTimeRange("19:30", "20:45")</script><noscript>19.30pm - 20.45pm (UTC time zone)</noscript>:<BR>
+	Lunch Break</b>
+	<BR>
+</p>
+
+<p>
+	<b><script type="text/javascript">writeTimeRange("20:45", "21:15")</script><noscript>20.45pm - 21.15pm (UTC time zone)</noscript>:<BR>
+	Session 2 - Distributed and Federated Learning Systems</b>
+	<BR>
+	Session Chair: TBD
+</p>
+
+<table>
+	<tr valign='top'>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td>
+		<div style="font-size: small;">
+		<b><!--a href="https://dl.acm.org/doi/10.1145/3469116.3470014"-->CloudyFL: A Cloudlet-Based Federated Learning Framework for Sensing User Behavior Using Wearable Devices
+		<!--/a--></b>&nbsp;<BR>FQingyuan Gong, Hui Ruan, Yang Chen (<i>Fudan University, BirenTech Research</i>), Xiang Su (<i>NTNU, University of Oulu</i>)
+		<BR>
+		</div> 
+		</td>
+	</tr>
 </table>
 
 <BR>
+<table>
+	<tr valign='top'>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td>
+		<div style="font-size: small;">
+		<b><!--a href="https://dl.acm.org/doi/10.1145/3469116.3470012"-->The role of compute nodes in privacy-aware decentralized AI
+		<!--/a--></b>&nbsp;<BR>
+		Joana Tirana (<i>University College Dublin, University of Thessaly</i>), Christodoulos Pappas (<i>University of Thessaly</i>), Dimitris Chatzopoulos (<i>University College Dublin</i>), Spyros Lalis, Manolis Vavalis (<i>University of Thessaly</i>)
+		<BR>
+		</div> 
+		</td>
+	</tr>
+</table>
+
+<!--BR>
 
 <p>
 <b><script type="text/javascript">writeTimeRange("14:10", "14:30")</script><noscript>2.10pm - 2.30pm (UTC time zone)</noscript>:<BR>
